@@ -22,13 +22,13 @@ export const projects: Project[] = [
     slug: "dos-lunas-online",
   },
   {
-    title: "Luis María — Web gastronómica",
+    title: "Gretta E-commerce",
     description:
-      "Sitio web full-stack para un local gastronómico: menú, pedidos y panel de administración.",
-  tags: ["Next.js", "NextAuth.js", "React", "TypeScript", "Tailwind CSS", "MongoDB"],
-    liveUrl: "https://luis-maria.vercel.app/",
-    repoUrl: "https://github.com/maxiTiton/LuisMaria",
-    image: "/PortadaLuisMaria.png",
-    slug: "luis-maria",
+      "Sistema e-commerce full stack para cafetería artesanal con integración de pagos, panel administrativo y gestión de pedidos en tiempo real.",
+    tags: ["React", "Node.js", "PostgreSQL", "JavaScript", "Supabase", "REST APIs"],
+    liveUrl: "https://gretta-go.vercel.app/",
+    repoUrl: "https://github.com/maxiTiton/Gretta",
+    image: "/PortadaGretta.png",
+    slug: "gretta-ecommerce",
   },
 ];
