@@ -35,6 +35,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     case "luis-maria":
       customDescription = "Aplicación full-stack construida con Next.js, TypeScript, MongoDB y autenticación con NextAuth.js. Permite a un local gastronómico gestionar su menú, recibir pedidos online y administrar todo desde un panel seguro y moderno.";
       break;
+    case "market-radar":
+      customDescription = "Proyecto full stack desarrollado con FastAPI en el backend y Next.js en el frontend. Consume datos de Yahoo Finance cada 15 minutos mediante un scheduler automático y los sirve a través de una API REST. Incluye cuatro vistas principales: dashboard con top/bottom movers y ranking de sectores, heatmap interactivo con tiles coloreados por retorno, tabla comparativa con filtros y ordenamiento, y fichas de activo individuales con gráfico de precio histórico. El universo cubre acciones del S&P 500, ETFs, criptomonedas y CEDEARs que cotizan en el Merval argentino.";
+      break;
     default:
       customDescription = project.description;
   }

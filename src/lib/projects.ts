@@ -31,4 +31,14 @@ export const projects: Project[] = [
     image: "/PortadaGretta.png",
     slug: "gretta-ecommerce",
   },
+  {
+    title: "Market Radar",
+    description:
+      "Dashboard financiero con datos en tiempo real de más de 110 activos. Incluye heatmap, tabla comparativa, fichas con gráficos y watchlist personalizado.",
+    tags: ["Python", "FastAPI", "Next.js", "TypeScript"],
+    liveUrl: "https://market-radar-azure.vercel.app/",
+    repoUrl: "https://github.com/maxiTiton/market-radar",
+    image: "/PortadaMarketRadar.png",
+    slug: "market-radar",
+  },
 ];
