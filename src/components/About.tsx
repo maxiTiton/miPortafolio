@@ -9,7 +9,7 @@ export default function About() {
         <SectionHeader title="Sobre mí" />
         <Reveal>
           <p className="mt-4 text-gray-dark dark:text-gray-medium max-w-none leading-relaxed">
-            Soy estudiante de 4° año de Ingeniería en Sistemas de Información, con formación en desarrollo full stack y especial interés en tecnologías emergentes como la inteligencia artificial. Cuento con certificación de inglés nivel B2 y me destaco por mi compromiso, disciplina y capacidad para adaptarme a distintos entornos de trabajo. Me encuentro en constante aprendizaje y busco crecer profesionalmente en el mundo del desarrollo de software y la innovación tecnológica.
+            Soy estudiante de 5° año de Ingeniería en Sistemas de Información, con formación en desarrollo full stack y especial interés en tecnologías emergentes como la inteligencia artificial. Cuento con certificación de inglés nivel B2 y me destaco por mi compromiso, disciplina y capacidad para adaptarme a distintos entornos de trabajo. Me encuentro en constante aprendizaje y busco crecer profesionalmente en el mundo del desarrollo de software y la innovación tecnológica.
           </p>
         </Reveal>
         <Reveal>

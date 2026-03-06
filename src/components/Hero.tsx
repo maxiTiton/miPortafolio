@@ -20,7 +20,7 @@ export default function Hero() {
                 Hola, soy <span className="text-gradient">Máximo Titón</span>
               </h1>
               <p className="mt-4 text-base sm:text-lg text-gray-dark dark:text-gray-medium text-justify">
-                Estudiante de Ingeniería en Sistemas, Analista en Sistemas y Desarrollador Full Stack Jr. Apasionado por la tecnología y la innovación, ofreciendo soluciones digitales y valor en cada proyecto.
+                Estudiante de Ingeniería en Sistemas, Analista en Sistemas y Desarrollador Full Stack Apasionado por la tecnología y la innovación, ofreciendo soluciones digitales y valor en cada proyecto.
               </p>
               <div className="mt-6 flex flex-col md:flex-row flex-wrap gap-3">
                 <a href="#proyectos" className="btn-primary h-11 px-5 text-sm font-medium w-full md:w-auto text-center">
