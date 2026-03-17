@@ -38,6 +38,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     case "market-radar":
       customDescription = "Proyecto full stack desarrollado con FastAPI en el backend y Next.js en el frontend. Consume datos de Yahoo Finance cada 15 minutos mediante un scheduler automático y los sirve a través de una API REST. Incluye cuatro vistas principales: dashboard con top/bottom movers y ranking de sectores, heatmap interactivo con tiles coloreados por retorno, tabla comparativa con filtros y ordenamiento, y fichas de activo individuales con gráfico de precio histórico. El universo cubre acciones del S&P 500, ETFs, criptomonedas y CEDEARs que cotizan en el Merval argentino.";
       break;
+    case "horus-tech":
+      customDescription = "HorusTech es un emprendimiento que cofundé junto a otro desarrollador, enfocado en construir soluciones digitales para empresas: sitios web modernos, APIs backend y automatizaciones. El sitio fue desarrollado con el mismo stack principal que este portafolio (Next.js, TypeScript, React y Tailwind CSS), con foco en rendimiento, escalabilidad y una experiencia clara para potenciales clientes.";
+      break;
     default:
       customDescription = project.description;
   }

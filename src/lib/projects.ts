@@ -2,26 +2,6 @@ import type { Project } from "@/components/ProjectCard";
 
 export const projects: Project[] = [
   {
-    title: "Cabañas Las Casonas",
-    description:
-      "Sitio web para complejo de cabañas. Desarrollo front‑end responsivo con foco en performance y SEO.",
-    tags: ["React", "CSS"],
-    liveUrl: "https://www.las-casonas.com.ar/",
-    repoUrl: "https://github.com/maxiTiton/CabaniasLasCasonas",
-    image: "/PortadaLasCasonas.png",
-    slug: "las-casonas",
-  },
-  {
-    title: "Cabañas Dos Lunas",
-    description:
-      "Web informativa para cabañas/turismo con diseño limpio, galerías y secciones esenciales.",
-    tags: ["React", "Tailwind CSS"],
-    liveUrl: "https://www.doslunasonline.com.ar/",
-    repoUrl: "https://github.com/maxiTiton/DosLunas",
-    image: "/PortadaDosLunas.png",
-    slug: "dos-lunas-online",
-  },
-  {
     title: "Gretta E-commerce",
     description:
       "Sistema e-commerce full stack para cafetería artesanal con integración de pagos, panel administrativo y gestión de pedidos en tiempo real.",
@@ -40,5 +20,35 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/maxiTiton/market-radar",
     image: "/PortadaMarketRadar.png",
     slug: "market-radar",
+  },
+  {
+    title: "HorusTech",
+    description:
+      "Emprendimiento digital que cofundé junto a un colega, orientado a desarrollar soluciones web modernas, APIs y automatizaciones para negocios.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+    liveUrl: "https://horus-tech.vercel.app/",
+    repoUrl: "https://github.com/maxiTiton/HorusTech",
+    image: "/PortadaHorusTech.png",
+    slug: "horus-tech",
+  },
+  {
+    title: "Cabañas Las Casonas",
+    description:
+      "Sitio web para complejo de cabañas. Desarrollo front‑end responsivo con foco en performance y SEO.",
+    tags: ["React", "CSS"],
+    liveUrl: "https://www.las-casonas.com.ar/",
+    repoUrl: "https://github.com/maxiTiton/CabaniasLasCasonas",
+    image: "/PortadaLasCasonas.png",
+    slug: "las-casonas",
+  },
+  {
+    title: "Cabañas Dos Lunas",
+    description:
+      "Web informativa para cabañas/turismo con diseño limpio, galerías y secciones esenciales.",
+    tags: ["React", "Tailwind CSS"],
+    liveUrl: "https://www.doslunasonline.com.ar/",
+    repoUrl: "https://github.com/maxiTiton/DosLunas",
+    image: "/PortadaDosLunas.png",
+    slug: "dos-lunas-online",
   },
 ];
